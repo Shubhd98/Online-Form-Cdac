@@ -1,0 +1,40 @@
+Create Table Centres(City varchar(255) NOT NULL, Centrename varchar(255) NOT NULL, Courses varchar(255));
+
+Create Table Education (schoolscc varchar(255)  NOT NULL, boardssc varchar(255) , specializationssc varchar(255) ,percentssc int,gradessc varchar(255),dopssc date,schoolnamehsc varchar(255), boardhsc  varchar(255),specializationhsc varchar(255),percenthsc int, gradehsc varchar(255),dophsc date, qualification varchar(255),stream varchar(255),specializationgrad varchar(255),university varchar(255),college varchar(255), courseduration varchar(255),dopgrad date, degreepercent int);
+
+
+Create Table Feedback( 
+Fullname varchar(255)  NOT NULL, 
+emailid varchar(255)  NOT NULL, 
+msg varchar(255) NOT NULL, 
+PRIMARY KEY (Fullname) 
+);
+
+
+CREATE TABLE user (
+    id int NOT NULL,
+    emailid varchar(255) NOT NULL,
+    username varchar(255),
+    password varchar(255),
+    PRIMARY KEY (id)
+);
+
+
+CREATE TABLE personal_info(
+    id int NOT NULL,
+    address varchar(255) NOT NULL,
+    degreename varchar(255),
+    city varchar(255),
+    dob datetime,
+emailid varchar(255),
+fathername varchar(255),
+gender varchar(255),
+image mediumblob,
+lname varchar(255),
+percent float,
+pincode int(11),
+state varchar(255),
+university varchar(255),
+yop int(11),
+fname varchar(255)
+);
