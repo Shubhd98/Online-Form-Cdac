@@ -1,0 +1,11 @@
+insert into centres values("bangalore","Cdac KP","PG-DAC PG-DESD PG-DBDA PG-DIoT");
+
+insert into centres values("mumbai","Cdac Khargar","PG-DAC PG-DESD PG-DBDA");
+
+insert into centres values("chennai","Cdac","PG-DAC PG-DESD PG-DBDA PGDIoT");
+
+insert into centres values("indore","Orlando Academy","PG-DAC");
+
+insert into centres values("pune","Cdac","PG-DAC PG-DESD PG-DBDA PG-DIoT PG-DITISS PG-DVLSI");
+
+insert into centres values("silchar","C-DAC","PG-DAC");
