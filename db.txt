@@ -22,7 +22,7 @@ CREATE TABLE user (
 
 CREATE TABLE personal_info(
     id int NOT NULL,
-    address varchar(255) NOT NULL,
+    address varchar(255),
     degreename varchar(255),
     city varchar(255),
     dob datetime,
